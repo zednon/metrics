@@ -573,15 +573,20 @@ p {
     /* padding: 35px 20px; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #header .topbar img {
-    max-width: 200px;
-    width: 100%;
+    width: 200px;
+    max-width: 100%;
     height: auto;
 }
 
-
+.header {
+    padding: 35px 20px;
+    display: flex;
+    justify-content: space-between;
+}
 
 @media screen and (max-width: 27em) {
     #header .btn {
@@ -670,7 +675,7 @@ p {
     display: block;
 }
 
-.pricing-box .btn{
+.pricing-box .btn {
     max-width: 100%;
     bottom: 0;
     left: 0.8em;
