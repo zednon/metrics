@@ -1,3 +1,19 @@
+.box-head {
+    padding-left: 15px;
+}
+
+.b-t-blue {
+    border-top: 5px solid var(--brightBlue) !important;
+}
+
+.b-t-purple {
+    border-top: 5px solid var(--brightPurple) !important;
+}
+
+.b-t-yellow {
+    border-top: 5px solid var(--brightYellow) !important;
+}
+
 .btn-cartoon-mobile {
     font-family: 'Quicksand', sans-serif;
     font-size: 1em;
@@ -19,6 +35,39 @@
     position: relative;
 }
 
+.btn-white {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-cartoon-shadow-blue {
+    border: 4px solid black;
+    box-shadow: -6px 4px 0px 0px;
+    -webkit-box-shadow: -6px 4px 0px 0px rgb(0 163 180);
+    -moz-box-shadow: -6px 4px 0px 0px rgb(0, 163, 180);
+    position: relative;
+}
+
+.btn-cartoon-shadow-purple {
+    border: 4px solid black;
+    box-shadow: -6px 4px 0px 0px rgb(155 14 91);
+    -webkit-box-shadow: -6px 4px 0px 0px rgb(155 14 91);
+    -moz-box-shadow: -6px 4px 0px 0px rgb(155, 14, 91);
+    position: relative;
+}
+
+.btn-cartoon-shadow-yellow {
+    border: 4px solid black;
+    box-shadow: -6px 4px 0px 0px rgb(220 152 40);
+    -webkit-box-shadow: -6px 4px 0px 0px rgb(220 152 40);
+    -moz-box-shadow: -6px 4px 0px 0px rgb(220, 152, 40);
+    position: relative;
+}
+
+.three-buttons {
+    max-width: 300px;
+    width: 30%;
+}
 
 h1,
 h2,
@@ -28,4 +77,29 @@ h5 {
     font-family: 'DM Sans', "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
     line-height: 1.1;
+}
+
+.font-qs {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.wall-border {
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.width60 {
+    width: 60%;
+}
+
+.width70 {
+    width: 70%;
+}
+
+.width80 {
+    width: 80%;
 }
