@@ -7,9 +7,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
 
 
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/style-cc.css">
-  <link rel="stylesheet" href="styles/metrics.css">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style-cc.css">
+  <link rel="stylesheet" href="./styles/metrics.css">
 
   <meta property="og:title" content="UX Metrics Your Stakeholders Can’t Ignore" />
   <meta property="og:type" content="website" />
@@ -22,7 +22,7 @@
     content="UX Metrics Your Stakeholders Can’t Ignore - Tame the chaos and deliver better outcomes.">
 
   <link
-    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&family=DM+Sans:wght@400;700&display=swap"
     rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 
@@ -30,15 +30,14 @@
 </head>
 
 <body>
-
-  <section id="header">
+  <section id="header" style="border-bottom: 8px solid black;">
     <div class="bg-lightGray">
-      <div class="topbar container-cc">
+      <div class="topbar container-cc header">
         <div>
           <img src="https://www.uie.com/wp-assets/img/landing/CC-UIE-logo.png" alt="CenterCentre Logo">
         </div>
         <div class="">
-          <a class="cta btn btn-purple" href="#pricing">Join Now</a>
+          <a class="cta btn btn-purple btn-cartoon-shadow btn-cartoon-mobile" href="#pricing">Join Now</a>
         </div>
       </div>
     </div>
@@ -46,15 +45,9 @@
 
   <section id="hero">
     <div class="hero-agile">
-      <div class="bg-brightPurple" style="text-align: center;">
+      <div class="bg-brightPurple"
+        style="text-align: center; background-image: url('./img/background_one.png'); height: 75vh; background-size: 100%; background-repeat: no-repeat;">
         <div class="py-3 container-cc ">
-          <div class="">
-            <div style="text-align: left;" class="">
-            </div>
-            <img alt="Free Intensive.. Led by Jared Spool. UX Metrics Your Stakeholders Can’t Ignore."
-              src="https://asset.uie.com/emails/img/Metrics_Feb_6.png" class="img-resp">
-          </div>
-
         </div>
       </div>
     </div>
@@ -64,13 +57,13 @@
   <section class="introStatementsA bg-lightGray">
     <div class="container-cc py-1">
       <div class="split align-center" style=" margin: 0 auto;">
-        <div class="sec-desc basis60 column">
-          <h2 id="let-jared-spool-be-your-guide" class="">Feel challenged by making UX work with Agile? You are not
-            alone.
+        <div class="sec-desc basis80 column">
+          <h2 id="let-jared-spool-be-your-guide" class="">
+            With the right support, your UX team will drive high-quality results from your organization’s Agile process.
           </h2>
         </div>
-        <div class="sec-il basis40 column">
-          <img src="images/agile-people.png" class="img-resp max-10em image-left"
+        <div class="sec-il basis20 column">
+          <img src="./img/dont_miss_it_2.png" class="img-resp max-10em image-left"
             alt="Person holding flag that says Agile.Line art. ">
         </div>
       </div>
@@ -79,16 +72,16 @@
 
 
 
-  <section class="introStatementsB ">
+  <section class="introStatementsB bg-brightPurple">
     <div class="container-cc py-1">
       <div class="split align-center column-reverse" style=" margin: 0 auto;">
-        <div class="sec-il basis40 column ">
-          <img src="images/With-the-right-support-section.png" class="img-resp max-10em image-right"
-            alt="Person working on a computer next to a cup of coffee. Line art.">
+        <div class="sec-il basis20 column ">
+          <!-- <img src="images/With-the-right-support-section.png" class="img-resp max-10em image-right"
+            alt="Person working on a computer next to a cup of coffee. Line art."> -->
         </div>
-        <div class="sec-desc basis60 column">
-          <h2 id="let-jared-spool-be-your-guide" class="">With the right support, your UX team will drive high-quality
-            results from your organization’s Agile process.
+        <div class="sec-desc basis80 column">
+          <h2 style="font-size: 1.8em; text-align: right; color: #fff;" id="let-jared-spool-be-your-guide" class="">
+            Agile is a continuous learning platform. So is UX. You can make them work well together.
           </h2>
         </div>
       </div>
@@ -97,7 +90,7 @@
 
 
 
-
+  <!-- 
   <section class="introStatementsC bg-lightGray">
     <div class="container-cc py-1 ">
       <div class="split align-center" style=" margin: 0 auto;">
@@ -112,16 +105,14 @@
         </div>
       </div>
     </div>
-  </section>
-
-
+  </section> -->
 
   <section class="quotedArticleLeft" class="white-bg">
     <div class="container-cc py-3 ">
       <div class="split">
 
-        <div class="sec-desc basis50 column">
-          <h2 style="font-weight: bold;" class=""> Tame the chaos and take control of Agile UX.
+        <div class="sec-desc basis60 column">
+          <h2 style="font-weight: bold;" class=""> Tame the chaos and take <br /> control of Agile UX.
           </h2>
 
           <p class="pb-1 view-on-mobile">
@@ -147,12 +138,17 @@
             control of Agile UX.</p>
         </div>
 
-        <div class="sec-il basis50 pl-4 view-on-desktop">
-          <p style="position:sticky; top:5px;">
+        <div class="sec-il basis40 pl-4 view-on-desktop">
+          <img src="./img/conversation_5.png" class="img-resp image-left" alt=" Lightbulb over the book. Line art. ">
+          <p style="top:5px; text-align: center; font-weight: bold; font-size: 2rem;">
             <span class="heading-highlighted">
-              UX and Agile are not natural enemies. <br> Let’s stop treating them that way.
+              It's not magic, <br />
+              it's metrics!
             </span>
           </p>
+          <div style="text-align: center; margin-top: 80%;" class="">
+            <a class="cta btn btn-purple btn-cartoon-shadow btn-cartoon" href="#pricing">Join Now</a>
+          </div>
         </div>
       </div>
     </div>
@@ -162,25 +158,26 @@
     <div class="container-cc py-3">
       <div class="split">
         <div class="sec-il basis40 pr-4 view-on-desktop">
-          <div style="position:sticky; top:5px;" class="txt-right-on-desktop">
-            <p> <span class="heading-highlighted ">
-                Get your Agile teams off of the code-delivery treadmill.
+          <div style="position:sticky; top:5px; font-weight: bold; text-align: center;" class="txt-right-on-desktop">
+            <img class="img-resp image-left" src="./img/conversation_7.png" alt="Box with Magic coming out of it." />
+            <p style="font-size: 1.8em;"> <span class="heading-highlighted">
+                Metrics don't <br /> come out of a <br /> magic box.
               </span></p>
           </div>
         </div>
 
-        <div class="sec-desc basis50 column">
-          <h2 style="font-weight: bold;" class=""> Transform your Agile UX process to deliver true value and innovation
+        <div class="sec-desc basis60 column">
+          <h2 style="font-weight: bold; font-size: 1.8em;" class=""> Transform your Agile UX process to deliver true
+            value and innovation.
           </h2>
 
           <p class="pb-1 view-on-mobile">
             <span class="heading-highlighted">
               Get your Agile teams off of the code-delivery treadmill.
+              Imagine 6 hour-long sessions where you:
             </span>
           </p>
-
-          <p>Imagine 6 hour-long sessions where you:</p>
-          <ul class="indent-bullets">
+          <ul class="indent-bullets" style="margin-left: 10%;">
             <li>Reframe your Agile efforts to deliver value, not just code. <em>Your organization will benefit from the
                 true promise of agility.</em></li>
             <li>Unearth new approaches that push beyond Agile’s constraints. <em>You’ll stop feeling stuck all the
@@ -193,7 +190,7 @@
                 products that improve people’s lives.</em></li>
           </ul>
           <p>At the end of this Intensive, you’ll take control of your Agile UX process. You’ll see how:</p>
-          <ul class="indent-bullets">
+          <ul class="indent-bullets" style="margin-left: 10%;">
             <li>Your Agile teams will know more about their users. <em>They’ll have their users in mind with every
                 decision they make.</em></li>
             <li>You’ll describe and measure the delivery of value. <em>Teams will have a new understanding of value as
@@ -593,20 +590,17 @@
         <div class="column">
           <h2 class="h2" style="font-weight: bold;">Which package do you want for the Take Control of Agile UX
             intensive?</h2>
+          <p class="">
+            Ready to Take Control of Agile UX in your organization? We’ve got three perfectly-priced packages for you.
+          </p>
         </div>
         <div class="split column">
           <div class="first-box pricing-box basis33 pb-2 pr-1">
             <div class="box-head">
-              <h3 id="are-you-ready-to-" class=""> UX Learner Package
+              <h3 id="are-you-ready-to-" class="">Live Sessions
               </h3>
-            </div>
-            <div class="box-posthead">
-              <img src="images/agile-price-free.png" alt="" class="img-resp"
-                style="max-width: 100px; display: block; margin:0 auto;">
-
-              <div class="box-pricing">
-                Free
-              </div>
+              <h3 id="are-you-ready-to-" class="">$397
+              </h3>
             </div>
 
 

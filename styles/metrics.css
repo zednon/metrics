@@ -1,0 +1,31 @@
+.btn-cartoon-mobile {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.5em 1.25em;
+}
+
+.btn-cartoon {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 0.5em 1.25em;
+}
+
+.btn-cartoon-shadow {
+    box-shadow: 0px 0px 0px 4px rgb(8 8 8), -1px -1px 0px 0px rgb(8 8 8), 1px -1px 0px 0px rgb(0 0 0), -1px 1px 0px 0px rgb(0 0 0), -8px 8px 0px 0px rgb(0 0 0);
+    -webkit-box-shadow: 0px 0px 0px 4px rgb(8 8 8), -1px -1px 0px 0px rgb(8 8 8), 1px -1px 0px 0px rgb(0 0 0), -1px 1px 0px 0px rgb(0 0 0), -8px 8px 0px 0px rgb(0 0 0);
+    -moz-box-shadow: 0px 0px 0px 4px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8), 1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0), -8px 8px 0px 0px rgba(0, 0, 0, 1);
+    position: relative;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'DM Sans', "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+}
