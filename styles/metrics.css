@@ -180,6 +180,15 @@
     -5px 6px 0px 0px rgba(0, 0, 0, 1);
 }
 
+.b-t-purple.box-content li,
+.b-t-purple.box-content p,
+.b-t-blue.box-content li,
+.b-t-blue.box-content p,
+.b-t-yellow.box-content li,
+.b-t-yellow.box-content p {
+  font-size: 18px;
+}
+
 .reverse {
   flex-direction: column-reverse;
 }
