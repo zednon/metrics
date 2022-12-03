@@ -248,6 +248,7 @@ FOOTER
   /* max-width: 900px; */
   margin: 0 auto;
 }
+
 @media only screen and (max-width: 900px) {
   .container {
     padding: 20px;
@@ -352,6 +353,7 @@ FOOTER
 }
 
 @media only screen and (max-width: 54em) {
+
   .image-left,
   .image-right {
     margin-right: auto;
@@ -605,8 +607,7 @@ p {
 \*------------------------------------*/
 
 .hero-research {
-  background: var(--darkOrange) url("images/hero/research-hero-bg.png")
-    no-repeat;
+  background: var(--darkOrange) url("images/hero/research-hero-bg.png") no-repeat;
   background-size: cover;
 }
 
@@ -894,6 +895,7 @@ START TESTIMONIALS
     margin-right: 0px !important;
   }
 }
+
 .testimonial-quote .emph {
   color: var(--darkPurple);
   color: black;
@@ -946,6 +948,7 @@ START TESTIMONIALS
 .testimonial-quote-inside {
   padding: 20px;
 }
+
 /*
   END TESTIMONIALS
   */
@@ -1041,7 +1044,7 @@ footer img {
   flex-basis: calc(33% - var(--gap));
 }
 
-.emulated-flex-gap > * {
+.emulated-flex-gap>* {
   margin: var(--gap) 0 0 var(--gap);
 }
 

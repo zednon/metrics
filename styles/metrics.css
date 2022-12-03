@@ -5,6 +5,7 @@
 
 .box-div {
   display: flex;
+  flex-direction: column;
 }
 
 .b-t-blue {
@@ -215,6 +216,10 @@
     width: 85%;
   }
 
+  .box-div {
+    flex-direction: row;
+  }
+
   .flex-div-start {
     flex-direction: row;
   }
@@ -289,6 +294,10 @@
 
   .view-on-mobile {
     padding-right: 19%;
+  }
+
+  .pricing-box .box-head {
+    min-height: 130px;
   }
 }
 
