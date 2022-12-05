@@ -10,8 +10,9 @@
 
 .box-head {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   padding: 10px;
   min-height: 350px !important;
 }
@@ -156,8 +157,8 @@
   grid-template-columns: repeat(26, 1fr);
 }
 
-.inner-box {
-  width: 50%;
+.inner-box p {
+  font-size: 16px;
 }
 
 .three-buttons {
@@ -360,6 +361,11 @@
 
   .box-head {
     min-height: 300px !important;
+    align-items: flex-start;
+  }
+
+  .box-head .btn {
+    width: 50%;
   }
 
   .box-head .btn-yellow {
@@ -394,17 +400,13 @@
     padding-left: 15px;
   }
 
-  .box-head .btn-yellow {
-    margin-top: 100%;
+  .box-head .btn {
+    width: 95%;
   }
 
   .flex-div {
     flex-direction: row;
     font-size: 0.9rem;
-  }
-
-  .inner-box {
-    width: 100%;
   }
 
   h1,
