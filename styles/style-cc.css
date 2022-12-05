@@ -644,10 +644,6 @@ p {
     $PRICING BOX
 \*------------------------------------*/
 
-.pricing-box {
-  position: relative;
-}
-
 .box-pricing {
   display: block;
   text-align: center;
@@ -669,11 +665,7 @@ p {
 
 .pricing-box .btn {
   max-width: 100%;
-  bottom: 0;
-  left: 0.8em;
-  right: 0.8em;
   margin-bottom: 2em;
-  position: absolute;
 }
 
 /*------------------------------------*\
