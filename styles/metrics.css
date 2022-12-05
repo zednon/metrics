@@ -157,6 +157,10 @@
   grid-template-columns: repeat(26, 1fr);
 }
 
+.hero-lines {
+  font-size: 25px;
+}
+
 .inner-box p {
   font-size: 16px;
 }
@@ -462,7 +466,7 @@
     margin-top: 17.2%;
   }
 
- 
+
   .jared-image {
     margin-left: 13%;
   }
@@ -482,7 +486,7 @@
   }
 }
 
-h5{
+h5 {
   font-size: 20px;
   font-weight: 700;
   padding-top: 20px;
@@ -494,13 +498,13 @@ h5{
 
 
 
-.pricing-box  .box-head {
+.pricing-box .box-head {
   min-height: 405px;
-} 
+}
 
 
 @media only screen and (max-width: 860px) {
-  .pricing-box .box-head{
+  .pricing-box .box-head {
     min-height: 300px;
-  } 
+  }
 }
