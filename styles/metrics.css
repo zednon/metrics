@@ -420,7 +420,7 @@
   }
 
   #intensive-w-jared {
-    padding-left: 20%;
+    padding-left: 25%;
   }
 
   #intensive-w-jared p {
@@ -474,6 +474,11 @@
   .view-on-mobile {
     padding-right: 19%;
   }
+
+  #intensive-w-jared {
+    padding-left: 10%;
+  }
+
 }
 
 @media only screen and (min-width: 1750px) {
