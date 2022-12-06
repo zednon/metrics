@@ -498,11 +498,6 @@ h5 {
   padding-bottom: 10px;
 }
 
-
-
-
-
-
 .pricing-box .box-head {
   min-height: 405px;
 }
@@ -512,4 +507,18 @@ h5 {
   .pricing-box .box-head {
     min-height: 300px;
   }
+}
+
+@media only screen and (max-width: 54em) {
+
+  .basis20,
+  .basis25,
+  .basis30,
+  .basis40,
+  .basis50,
+  .basis60,
+  .basis80 {
+    max-width: 100%;
+  }
+
 }
