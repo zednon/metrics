@@ -16,8 +16,11 @@ async function eventRetrieveal() {
         let regularLength = regularMembers.records.length;
         //Getting span element for seats
         let regularLengthText = document.getElementById('reg-seats-left');
-        //Change inner text of span
-        regularLengthText.innerText = `${15 - regularLength}`;
+        if (200 - regularLength !== 1) {
+            regularLengthText.innerText = `Only ${200 - regularLength} spaces are available.`;
+        } else {
+            regularLengthText.innerText = `Only ${200 - regularLength} space are available.`;
+        }
 
         //The three buttons at the bottom of the page
         const threeButtonsDiv = document.getElementById("three-buttons-div");
@@ -27,7 +30,7 @@ async function eventRetrieveal() {
         const packageButtonDiv = document.getElementById("regular-box");
 
         //Check if the length of the regular table is over 200
-        if (regularLength >= 15) {
+        if (regularLength >= 200) {
             //Remove Reserve my space button
             packageDiv.removeChild(packageDiv.childNodes[3]);
             //Remove They'll go fast quote on the site.
@@ -99,8 +102,12 @@ async function eventRetrieveal() {
         let vipLength = vipMembers.records.length;
         //Getting span element for seats
         let vipLengthText = document.getElementById('vip-seats-left');
+        if (50 - vipLength !== 1) {
+            vipLengthText.innerText = `Only ${50 - vipLength} spaces are available.`;
+        } else {
+            vipLengthText.innerText = `Only ${50 - vipLength} space are available.`;
+        }
         //Change inner text of span
-        vipLengthText.innerText = `${15 - vipLength}`;
         //The three buttons at the bottom of the page
         const threeButtonsDiv = document.getElementById("three-buttons-div");
         //Purple package div 
@@ -109,7 +116,7 @@ async function eventRetrieveal() {
         const vipBoxDiv = document.getElementById("vip-box");
 
         //Check if the length is over 50
-        if (vipLength >= 15) {
+        if (vipLength >= 50) {
             //Remove Reserve my space button
             purpleBoxDiv.removeChild(purpleBoxDiv.childNodes[3]);
             //Remove They'll go fast quote on the site.
