@@ -254,6 +254,18 @@
     -5px 6px 0px 0px rgba(0, 0, 0, 1);
 }
 
+.regular-highlighted {
+  color: var(--brightBlue);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.vip-highlighted {
+  color: var(--brightPurple);
+  font-weight: bold;
+  font-style: italic;
+}
+
 .b-t-purple.box-content li,
 .b-t-purple.box-content p,
 .b-t-blue.box-content li,

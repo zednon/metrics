@@ -717,8 +717,8 @@
         </div>
         <div class="split column">
           <div class="first-box pricing-box basis33 pb-2 pr-1">
-            <div class="bg-white box-head blue">
-              <div class="inner-box">
+            <div id="white-box" class="bg-white box-head blue">
+              <div id="regular-box" class="inner-box">
                 <h3>
                   <strong>Outcome-Driven UX Metrics Fundamentals Package</strong>
                 </h3>
@@ -732,15 +732,15 @@
                   Team (2 or more): $397 per person
                 </p>
                 <p>
-                  <em>Only 200 spaces are available.</em>
+                  <em>Only <span id="reg-seats-left">15</span> spaces are available.</em>
                 </p>
                 <p>
                   <em>They’ll go fast!</em>
                 </p>
               </div>
-              <a style="color: #000" class="btn btn-cartoon btn-cartoon-shadow btn-blue btn-fill" target="_blank"
-                href="./intensive.html">
-                <div class="cta">RESERVE MY SPACE</div>
+              <a id="regular-link" style="color: #000" class="btn btn-cartoon btn-cartoon-shadow btn-blue btn-fill"
+                target="_blank" href="./intensive.html">
+                <div id="regular-text" class="cta">RESERVE MY SPACE</div>
               </a>
             </div>
 
@@ -787,8 +787,8 @@
           </div>
 
           <div class="second-box pricing-box basis33 pb-2 pr-1">
-            <div class="bg-white box-head purple">
-              <div class="inner-box">
+            <div id="purple-box" class="bg-white box-head purple">
+              <div id="vip-box" class="inner-box">
                 <h3>
                   <strong>Advanced Concepts VIP Package</strong>
                 </h3>
@@ -802,13 +802,13 @@
                   Team (2 or more): $597 per person
                 </p>
                 <p>
-                  <em>Only 50 spaces are available.</em>
+                  <em>Only <span id="vip-seats-left">15</span> spaces are available.</em>
                 </p>
                 <p>They'll go even faster!</p>
               </div>
-              <a class="btn btn-purple btn-cartoon btn-cartoon-shadow btn-fill" target="_blank" style="padding: 0.5em 0"
-                href="./vip.html">
-                <div class="cta">RESERVE MY SPACE</div>
+              <a id="vip-link" class="btn btn-purple btn-cartoon btn-cartoon-shadow btn-fill" target="_blank"
+                style="padding: 0.5em 0" href="./vip.html">
+                <div id="vip-text" class="cta">RESERVE MY SPACE</div>
               </a>
             </div>
 
@@ -921,13 +921,13 @@
           <div class="container-cc" style="width: 100%;">
             <div class="">
               <div class="pb-1">
-                <div class="box-call-container flex-div">
-                  <a href="#pricing"
+                <div id="three-buttons-div" class="box-call-container flex-div">
+                  <a id="regular-bottom-button" href="#pricing"
                     class="btn btn-cartoon-mobile btn-cartoon-shadow-blue btn-white basis30 initial-pos three-buttons">
                     LIVE SESSIONS <br />
                     FEB 6-10: $447
                   </a>
-                  <a href="#pricing"
+                  <a id="vip-bottom-button" href="#pricing"
                     class="btn btn-cartoon-mobile btn-cartoon-shadow-purple  btn-white basis30 initial-pos three-buttons">
                     LIVE SESSIONS + VIP <br />
                     FEB 6-16: $647
@@ -959,8 +959,7 @@
           <div class="b2">
             <p>
               791 Turnpike Street, Unit 4<br />
-              North Andover, MA 01845<br />
-              (800) 588-9855 or +1 978-327-5561
+              North Andover, MA 01845<br /> +1 978-327-5561
             </p>
           </div>
           <div class="c1">
@@ -986,18 +985,7 @@
     </div>
   </section>
 
-  <!-- <script>
-      // window.addEventListener('load', function () {
-      //     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      //         // true for mobile device
-      //         document.querySelector('#hero').scrollIntoView({
-      //             behavior: 'smooth'
-      //         });
-      //     } else {
-      //         // false for not mobile device
-      //     }
-      // })
-  </script> -->
+  <script src="./index.js" type="module"></script>
 </body>
 
 </html>
