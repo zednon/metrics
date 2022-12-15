@@ -17,9 +17,9 @@ async function eventRetrieveal() {
         //Getting span element for seats
         let regularLengthText = document.getElementById('reg-seats-left');
         if (200 - regularLength !== 1) {
-            regularLengthText.innerText = `Only ${200 - regularLength} spaces are available.`;
+            regularLengthText.innerText = `Only ${200 - regularLength} spaces are left.`;
         } else {
-            regularLengthText.innerText = `Only ${200 - regularLength} space are available.`;
+            regularLengthText.innerText = `Only ${200 - regularLength} space are left.`;
         }
 
         //The three buttons at the bottom of the page
@@ -103,9 +103,9 @@ async function eventRetrieveal() {
         //Getting span element for seats
         let vipLengthText = document.getElementById('vip-seats-left');
         if (50 - vipLength !== 1) {
-            vipLengthText.innerText = `Only ${50 - vipLength} spaces are available.`;
+            vipLengthText.innerText = `Only ${50 - vipLength} spaces are left.`;
         } else {
-            vipLengthText.innerText = `Only ${50 - vipLength} space are available.`;
+            vipLengthText.innerText = `Only ${50 - vipLength} space are left.`;
         }
         //Change inner text of span
         //The three buttons at the bottom of the page
