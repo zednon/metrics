@@ -24,7 +24,7 @@ async function eventRetrieveal() {
     const intensiveDiv = document.getElementById("ind-button");
     const teamButton = document.getElementById("team-button");
 
-    if (regularLength >= 15) {
+    if (regularLength >= 200) {
         intensiveDiv.removeChild(intensiveDiv.childNodes[1]);
 
         const button = document.createElement('a');
