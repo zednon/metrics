@@ -1,25 +1,25 @@
 async function eventRetrieveal() {
 
-    let regularMembers = [];
+    let vipMembers = [];
 
-    let regularResponse = await fetch(`https://api.airtable.com/v0/appf7G8225c26By1w/Regular?api_key=keyU9BHPSgikWgQC9`);
-    let regularText = await regularResponse.text();
+    let vipResponse = await fetch(`https://api.airtable.com/v0/appf7G8225c26By1w/VIP?api_key=keyU9BHPSgikWgQC9`);
+    let vipText = await vipResponse.text();
 
-    if (regularText.endsWith(",")) regularText = regularText.slice(0, -1);
+    if (vipText.endsWith(",")) vipText = vipText.slice(0, -1);
 
-    regularMembers = JSON.parse(regularText);;
+    vipMembers = JSON.parse(vipText);
 
-    let regularLength = regularMembers.records.length;
+    let vipLength = vipMembers.records.length;
 
     const intensiveDiv = document.getElementById("ind-button");
     const teamButton = document.getElementById("team-button");
 
-    if (regularLength >= 200) {
+    if (vipLength >= 50) {
         intensiveDiv.removeChild(intensiveDiv.childNodes[1]);
 
         const button = document.createElement('a');
         button.className = "cta btn btn-purple btn-cartoon-shadow btn-cartoon";
-        button.href = "https://register.centercentre.com/metricswaitlist";
+        button.href = "https://register.centercentre.com/metricsvipwaitlist";
         button.innerText = "JOIN OUR\nWAITING LIST";
         button.target = "_blank";
 
@@ -29,7 +29,7 @@ async function eventRetrieveal() {
 
         const button1 = document.createElement('a');
         button1.className = "cta btn btn-purple btn-cartoon-shadow btn-cartoon";
-        button1.href = "https://register.centercentre.com/metricswaitlist";
+        button1.href = "https://register.centercentre.com/metricsvipwaitlist";
         button1.innerText = "JOIN OUR\nWAITING LIST";
         button1.target = "_blank";
 
