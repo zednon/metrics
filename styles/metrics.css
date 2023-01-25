@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+.bg-gradientPurple {
+  background: var(--gradientPurple);
+}
+
 .box-div {
   display: flex;
   flex-direction: column;
@@ -339,6 +343,10 @@
   flex-direction: column-reverse;
 }
 
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
 .wall-border {
   border-top: 5px solid black;
   border-bottom: 5px solid black;
@@ -463,6 +471,10 @@
   }
 
   .reverse {
+    flex-direction: row;
+  }
+
+  .row-reverse {
     flex-direction: row;
   }
 
