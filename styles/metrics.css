@@ -14,6 +14,7 @@
 
 .bg-gradientPurple {
   background: var(--gradientPurple);
+  display: flex;
 }
 
 .box-div {
@@ -501,7 +502,11 @@
 
   #img-row {
     flex-basis: 25%;
-    padding-bottom: 10%;
+    padding-bottom: 12%;
+  }
+
+  .bottom-arrow {
+    margin-right: 0;
   }
 
   .flex-wall {
@@ -513,6 +518,24 @@
     line-height: 1.4em;
   }
 
+  .row-reverse .sec-il {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .twoIntroStatements {
+    position: relative;
+    max-width: 66em;
+    top: -80px;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  #hero-split {
+    padding-bottom: 80px;
+  }
+
   .two-hero-rows {
     display: flex;
     justify-content: center;
@@ -520,8 +543,12 @@
     font-size: 1.5em !important;
   }
 
-  #intensive-w-jared p {
-    font-size: 16px !important;
+  #let-jared-be-your-guide {
+    padding-bottom: 0;
+  }
+
+  #metrics-title {
+    max-width: 630px;
   }
 }
 
@@ -595,6 +622,10 @@
 }
 
 @media only screen and (min-width: 1440px) {
+
+  #img-row {
+    padding-bottom: 8%;
+  }
 
   .box-head .btn-blue {
     margin-top: 17.2%;
