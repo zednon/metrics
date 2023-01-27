@@ -17,6 +17,11 @@
   display: flex;
 }
 
+.bg-darkShadePurple {
+  background: var(--darkShadePurple);
+  display: flex;
+}
+
 .box-div {
   display: flex;
   flex-direction: column;
@@ -496,13 +501,18 @@
 }
 
 @media only screen and (min-width: 1024px) {
+
   #join-us {
-    margin-top: 0;
+    margin-top: 16px;
   }
 
   #img-row {
-    flex-basis: 25%;
-    padding-bottom: 12%;
+    flex-basis: 20%;
+    padding-left: 43px;
+  }
+
+  #metrics-title {
+    padding-bottom: 0;
   }
 
   .bottom-arrow {
@@ -541,6 +551,10 @@
     justify-content: center;
     align-items: center;
     font-size: 1.5em !important;
+  }
+
+  .two-hero-rows p {
+    margin-bottom: auto;
   }
 
   #let-jared-be-your-guide {
