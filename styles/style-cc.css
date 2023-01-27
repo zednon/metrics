@@ -44,8 +44,9 @@ FOOTER
   --darkRed: #951a1d;
   --brightRed: #d52327;
   --darkPurple: #662547;
+  --darkShadePurple: #6D1544;
   --brightPurple: #9b0e5b;
-  --gradientPurple: linear-gradient(127deg, rgba(105, 22, 67, 1) 0%, rgba(105, 22, 67, 1) 30%, rgba(139, 17, 83, 1) 50%);
+  --gradientPurple: linear-gradient(160deg, rgb(91 12 55) 0%, rgb(113 31 75) 30%, rgb(123 12 72) 50%);
   --orange: #9b621c;
   --darkOrange: #c14e27;
   --brightOrange: #ec621d;
