@@ -167,7 +167,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
 }
 
 .grid26 {
@@ -193,8 +192,8 @@
   font-family: "Quicksand", sans-serif;
 }
 
-.max-5em {
-  max-width: 5em;
+.max-4em {
+  max-width: 4em;
 }
 
 .max-7em {
@@ -503,12 +502,13 @@
 @media only screen and (min-width: 1024px) {
 
   #join-us {
-    margin-top: 16px;
+    margin-top: 32px;
   }
 
   #img-row {
     flex-basis: 20%;
-    padding-left: 43px;
+    padding-left: 40px;
+    padding-right: 0;
   }
 
   #metrics-title {
@@ -638,7 +638,7 @@
 @media only screen and (min-width: 1440px) {
 
   #img-row {
-    padding-bottom: 8%;
+    padding-bottom: 6%;
   }
 
   .box-head .btn-blue {
