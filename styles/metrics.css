@@ -432,6 +432,10 @@
   margin-bottom: 5px;
 }
 
+.b-t-purple.box-content h3 {
+  padding-top: 0;
+}
+
 @media(max-device-width: 800px) {
   .sec-desc-step {
     grid-column: 1 / 26;
