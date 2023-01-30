@@ -256,15 +256,36 @@
 }
 
 .box-head.blue {
-  border: 5px solid var(--brightBlue);
+  background-color: #057682;
+  color: #FFF;
 }
 
 .box-head.purple {
-  border: 5px solid var(--brightPurple);
+  background-image: url('../img/purple-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
 }
 
 .box-head.yellow {
-  border: 5px solid var(--brightYellow);
+  background-image: url('../img/recording-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+}
+
+.box-head-ticket {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.box-head-ticket img {
+  padding: 0 1em;
+}
+
+.box-head p {
+  font-size: 1.5em;
 }
 
 .hide-on-desktop {
@@ -279,8 +300,44 @@
   display: none;
 }
 
+.second-box {
+  position: relative;
+}
+
+.pricing-box h2 {
+  font-size: 1.5em;
+  width: 50%;
+}
+
+.sold-out {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.star {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  width: 20%;
+}
+
 .pricing-box .btn {
   margin: 20px 5px;
+  width: 75%;
+}
+
+.blue-check {
+  list-style-image: url('../img/blue-check.png');
+}
+
+.purple-check {
+  list-style-image: url('../img/purple-check.png');
+}
+
+#purple-box {
+  position: relative;
 }
 
 .pricing-box .btn:hover {
@@ -613,6 +670,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .pricing-box h2 {
+    font-size: 2.5em;
+  }
+
+  .pricing-img {
+    width: 60% !important;
+  }
+
+  .star {
+    right: 125px;
   }
 }
 
