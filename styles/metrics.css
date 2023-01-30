@@ -316,6 +316,12 @@
   z-index: 0;
 }
 
+.cal-card-image {
+  max-width: 300px;
+  top: 10px;
+  position: sticky;
+}
+
 .star {
   position: absolute;
   top: 100px;
