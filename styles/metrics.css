@@ -304,6 +304,14 @@
   position: relative;
 }
 
+.pricing-box .box-head p {
+  font-weight: 500;
+}
+
+.pricing-box .box-head p strong {
+  font-weight: 600;
+}
+
 .pricing-box h2 {
   font-size: 1.5em;
   width: 50%;
@@ -314,6 +322,12 @@
   top: 0;
   right: 0;
   z-index: 0;
+}
+
+.cal-card-image {
+  max-width: 300px;
+  top: 10px;
+  position: sticky;
 }
 
 .star {
@@ -673,11 +687,8 @@
   }
 
   .pricing-box h2 {
-    font-size: 2.5em;
-  }
-
-  .pricing-img {
-    width: 60% !important;
+    font-size: 2em;
+    width: 100%;
   }
 
   .star {
@@ -800,6 +811,10 @@
 
   #metrics-title {
     max-width: 630px;
+  }
+
+  .pricing-box h2 {
+    width: 75%;
   }
 }
 
