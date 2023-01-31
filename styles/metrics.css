@@ -654,9 +654,12 @@ html {
   }
 
   .b-t-purple.box-content,
-  .b-t-blue.box-content,
+  .b-t-blue.box-content {
+    max-width: 500px;
+  }
+
   .b-t-yellow.box-content {
-    max-width: 405px;
+    max-width: 395px;
   }
 
   .b-t-purple.box-content h3,
@@ -755,10 +758,6 @@ html {
   .star {
     right: 125px;
   }
-
-  .first-box {
-    padding-top: 0;
-  }
 }
 
 @media(max-device-width: 800px) {
@@ -812,6 +811,10 @@ html {
 
   .bottom-arrow {
     margin-right: 0;
+  }
+
+  .first-box {
+    padding-top: 0;
   }
 
   .flex-wall {
@@ -926,6 +929,10 @@ html {
   .b-t-blue.box-content,
   .b-t-yellow.box-content {
     max-width: 520px;
+  }
+
+  .b-t-yellow.box-content {
+    padding-left: 5%;
   }
 }
 
