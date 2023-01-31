@@ -372,6 +372,7 @@
   background: url(../img/blue-check.png);
   background-repeat: no-repeat;
   padding: 0 0 0 30px;
+  background-position: 0px 3px;
 }
 
 .blue-check ul li {
@@ -384,6 +385,7 @@
   list-style: none;
   background: url("../img/purple-check.png");
   background-repeat: no-repeat;
+  background-position: 0px 3px;
   padding: 0 0 0 30px;
 }
 
