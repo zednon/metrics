@@ -87,7 +87,9 @@ async function eventRetrieveal() {
         // packageDiv.appendChild(button);
     }
 
-    // // Fetching Data from VIP Table in Airtable
+
+    // Fetching Data from VIP Table in Airtable
+    
     // try {
     //     //Array to capture information from the VIP Table
     //     let vipMembers = [];
