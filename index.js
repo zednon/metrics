@@ -29,6 +29,7 @@ async function eventRetrieveal() {
         //Blue Button in the blue package
         const packageButtonDiv = document.getElementById("regular-box");
 
+        console.log(packageButtonDiv.childNodes[9]);
         //Check if the length of the regular table is over 200
         if (regularLength >= 200) {
             //Remove Reserve my space button
@@ -86,7 +87,9 @@ async function eventRetrieveal() {
         // packageDiv.appendChild(button);
     }
 
+
     // Fetching Data from VIP Table in Airtable
+    
     // try {
     //     //Array to capture information from the VIP Table
     //     let vipMembers = [];

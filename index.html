@@ -43,125 +43,100 @@
 </head>
 
 <body>
-  <section id="header" style="border-bottom: 8px solid black">
+  <section id="header">
     <div class="bg-lightGray">
       <div class="topbar container-cc header">
         <div>
           <img src="https://www.uie.com/wp-assets/img/landing/CC-UIE-logo.png" alt="CenterCentre Logo" />
         </div>
         <div class="">
-          <a class="cta btn btn-purple btn-cartoon-shadow btn-cartoon-mobile" href="#pricing">Join Now</a>
+          <a class="cta btn btn-purple btn-cartoon-shadow btn-cartoon" href="#pricing">Join Now</a>
         </div>
       </div>
     </div>
   </section>
 
   <section id="hero">
-    <div class="bg-brightPurple pb-5">
-      <div class="bg-brightPurple">
-        <div class="py-3 container-cc">
-          <div class="split">
-            <div style="color: #fff" class="sec-desc basis60 column">
-              <p style="
-                    font-family: 'DM Sans','Source Sans Pro';
-                    font-size: 2em;
+    <div class="bg-brightPurple">
+      <div class="bg-darkShadePurple">
+        <div class="container-cc">
+          <div class="bg-gradientPurple" id="hero-split" class="split">
+            <div id="img-row" style="color: #fff" class="sec-desc basis20 column">
+              <img class="img-resp" src="./img/conversation_4.png"
+                alt="A blue bubble with UX written inside of it and sparkles to the right of it." />
+            </div>
+            <div style="color: #fff" class="sec-desc basis80 column">
+              <p id="join-us" style="
+                    font-family: 'Source Sans Pro',  'DM Sans';
+                    font-size: 1em;
                     margin-bottom: 0;
-                    font-weight: 600;
                   ">
-                Join us, February 6 - 10, 2023, <br />
-                for our next intensive:
+                Join us, February 6 - 10, 2023
               </p>
-              <div class="flex-div-start" style="margin-top: 50px">
-                <img class="img-resp max-7em" src="./img/conversation_4.png" alt="UX bubble" />
-                <h2 class="laptop-pl1" style="font-size: 40px; font-family: 'Quicksand', sans-serif; margin-left:10px;">
-                  UX Metrics <br />
-                  Your Stakeholders <br />
-                  Can't Ignore
+              <div class="flex-div-start reverse">
+                <img class="img-resp max-7em" src="./img/conversation_4.png"
+                  alt="A blue bubble with UX written inside of it and sparkles to the right of it." />
+                <h2 id="metrics-title" style="font-family: 'Quicksand', sans-serif;">
+                  UX Metrics Your Stakeholders Can't Ignore
                 </h2>
               </div>
-              <p style="
-                    font-family:  'DM Sans', 'Source Sans Pro';
-                    font-size: 2em;
-                    padding-bottom: 50px;
-                    max-width: 400px;
-                  ">
-                <em>Spark exceptional outcomes with metrics, not magic.</em>
-              </p>
-            </div>
-            <div class="sec-desc basis40 column">
-              <img class="img-resp image-left" style="padding-top:50px; max-width:300px ;"
-                src="./img/conversation_2.png" alt="Magnifying glass with metrics" />
+              <div class="two-hero-rows">
+                <p>
+                  Spark exceptional outcomes with metrics, not magic.
+                </p>
+                <div id="intensive-w-jared" class="text-wall py-1 flex-wall" style="position: relative; color: #FFF;">
+                  <a href="#let-jared-spool-be-your-guide"><img class="jared-image img-resp max-5em"
+                      src="./img/conversation_3.png"
+                      alt="A picture of Jared Spool with sparkles to the left of him" /></a>
+                  <p>
+                    <em>A Leaders of Awesomeness intensive led by Jared Spool</em>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div id="intensive-w-jared" class="text-wall wall-border bg-lightGray py-1 flex-wall"
-          style="position: relative">
-          <img class="jared-image img-resp max-15em" src="./img/conversation_3.png"
-            alt="A picture of Jared with sparkles" />
-          <p style="font-family: 'DM Sans', 'Source Sans Pro'">
-            A Leaders of Awesomeness intensive led by Jared Spool
-          </p>
-        </div>
       </div>
     </div>
   </section>
 
-  <section class="introStatementsB bg-lightGray">
-    <div class="container-cc py-3">
-      <div class="split align-center column-reverse" style="margin: 0 auto">
-        <div class="sec-il basis20 column">
-          <img style="width: 75%; max-width: 100px;" src="./img/dont_miss_it_2_2.png"
-            class="img-resp max-10em image-right" alt="Arrow pointing to the right" />
-        </div>
-        <div class="sec-desc basis80 column">
-          <h2 style="font-size: 1.6em; line-height: 1.45em; text-align: right;  font-weight: 400;"
-            id="let-jared-spool-be-your-guide" class="">
-            Make UX a priority without having to fight to make UX a priority.
-          </h2>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="introStatementsA bg-brightPurple">
-    <div class="container-cc py-3">
-      <div class="split align-center" style="margin: 0 auto">
-        <div class="sec-desc basis80 column">
-          <h2 style="font-size: 1.6em; text-align: left;  font-weight: 400; line-height: 1.45em; color: #fff;"
-            id="let-jared-spool-be-your-guide" class="hero-lines">Promote great UX in terms your stakeholders and
-            executives
-            already understand.</h2>
-        </div>
-        <div class="sec-il basis20 column">
-          <img src="./img/dont_miss_it_2.png" style="max-width: 100px;" class="img-resp max-10em image-left"
-            alt="Person holding flag that says Agile.Line art. " />
+  <section class="introStatementsB bg-lightGray twoIntroStatements"
+    style="border-bottom: var(--brightPurple) 5px solid;">
+    <div class="introContainer">
+      <div class="container-cc">
+        <div class="split align-center row" style="margin: 0 auto">
+          <div class="sec-il basis20 column">
+            <img style="max-width: 100px;" src="./img/dont_miss_it_2_2.png"
+              class="img-resp max-10em image-right bottom-arrow" alt="Arrow pointing to the right" />
+          </div>
+          <div class="sec-desc basis80 column" id="ux-priority">
+            <h2 style="line-height: 1.45em; text-align: left;  font-weight: bold;">
+              Make UX a priority without having to fight to make UX a priority.
+            </h2>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="introStatementsB bg-lightGray">
-    <div class="container-cc py-3">
-      <div class="split align-center column-reverse" style="margin: 0 auto">
-        <div class="sec-il basis20 column">
-          <img style="width: 75%; max-width: 100px;" src="./img/dont_miss_it_2_2.png"
-            class="img-resp max-10em image-right" alt="Arrow pointing to the right" />
-        </div>
-        <div class="sec-desc basis80 column">
-          <h2 style="font-size: 1.6em; line-height: 1.45em; text-align: right;  font-weight: 400;"
-            id="let-jared-spool-be-your-guide" class="hero-lines">
-            Free your organization from its reactive “feature factory” mentality.
-          </h2>
+      <div class="container-cc">
+        <div class="split align-center row-reverse" style="margin: 0 auto">
+          <div class="sec-il basis20 column">
+            <img style="max-width: 100px;" src="./img/dont_miss_it_2_2.png"
+              class="img-resp max-10em image-right rotate180-mobile" alt="Arrow pointing to the right" />
+          </div>
+          <div class="sec-desc basis80 column">
+            <h2 style="line-height: 1.45em; text-align: left;  font-weight: bold;">
+              Promote great UX in terms your stakeholders and executives already understand.
+            </h2>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <section class="quotedArticleLeft" class="white-bg">
-    <div class="container-cc py-3">
+    <div class="container-cc pb-3">
       <div class="split">
         <div class="sec-desc basis60 column">
-          <h2 style="font-weight: bold" class="">
+          <h2 style="font-weight: bold">
             UX Metrics are the cornerstone of a strong UX strategy
           </h2>
 
@@ -201,8 +176,7 @@
           <p>
             There’s no magic here. <br /> Just simple-to-understand metrics.</p>
         </div>
-
-        <div class="sec-il basis40 view-on-desktop">
+        <div class="sec-il basis40 view-on-desktop metrics-images">
           <div style="
                 position: sticky;
                 top: 5px;
@@ -210,7 +184,7 @@
                 font-weight: bold;
               ">
             <img src="./img/conversation_5.png" class="img-resp image-left pl-4 pr-4"
-              alt=" Lightbulb over the book. Line art. " />
+              alt="A purple envelope that has metrics coming out of it. Angry lighting to the left of it." />
             <p style="font-size: 2rem">
               <span class="heading-highlighted">
                 It's not magic, <br />
@@ -226,18 +200,18 @@
     </div>
   </section>
 
-  <section class="quotedArticleRight bg-lightGray">
+  <section class="quotedArticleRight bg-lightPink">
     <div class="container-cc py-3">
       <div class="split reverse">
-        <div class="sec-il basis40 view-on-desktop">
+        <div class="sec-il basis40 view-on-desktop metrics-images">
           <div style="
                 position: sticky;
                 top: 5px;
                 font-weight: bold;
                 text-align: center;
-              " class="txt-right-on-desktop">
+              ">
             <img class="img-resp image-left pl-4 pr-4" src="./img/conversation_7.png"
-              alt="Box with Magic coming out of it." />
+              alt="Box with stars coming out of it." />
             <p style="font-size: 1.8em">
               <span class="heading-highlighted">
                 Metrics don't <br />
@@ -334,160 +308,208 @@
     </div>
   </section>
 
-  <section class="bg-lightGray">
+  <section class="white-bg">
     <div class="container-cc py-3">
-      <div class="column">
-        <div class="pb-1">
-          <h2>
-            February 6 - 10, 2023: <br /> 5 days that will change the way you work
-          </h2>
+      <div class="split">
+        <div class="sec-desc basis60 column">
+          <div class="pb-1">
+            <p style="font-weight: bold;">
+              February 6 - 10, 2023
+            </p>
+            <h2>
+              5 days that will change the way you work
+            </h2>
+          </div>
+          <div class="box-content" style="margin-top: 0">
+            <img class="img-resp image-left hide-on-desktop" src="./img/5-days-metrics-mobile.png"
+              alt="Two calendars February 6 through February 10." />
+            <p>This online workshop will be unlike any other workshop you’ve experienced. We call it an intensive
+              because,
+              well, it’s intense. </p>
+            <p>
+              In five 90-minute sessions, you’ll join Jared Spool on a comprehensive exploration to develop your team’s
+              own
+              Outcome-Driven UX Metrics. You’ll complete your journey with metrics that your stakeholders won’t ignore.
+            </p>
+            <p>Your metrics’ targets will capture the attention of your stakeholders and executives, raising the
+              importance
+              of UX within the organization. Your definition of project success will inspire your organization to
+              deliver
+              better-designed products and services.</p>
+            <p>Each day, from Monday, February 6, through Friday, February 10, you’ll attend a 90-minute session
+              containing
+              a new aspect of Outcome-Driven UX Metrics. </p>
+            <p>
+              You can choose between the 2pm ET (19.00 GMT) or 7pm ET (24.00 GMT) sessions. Jared
+              will be at both to
+              guide
+              you through the fundamentals and answer your questions.
+            </p>
+            <p>Here’s what’s happening during the Intensive’s Fundamentals week:</p>
+          </div>
         </div>
-        <div class="box-content" style="margin-top: 0">
-          <p>This online workshop will be unlike any other workshop you’ve experienced. We call it an intensive because,
-            well, it’s intense. </p>
-          <p>
-            In five 90-minute sessions, you’ll join Jared Spool on a comprehensive exploration to develop your team’s
-            own
-            Outcome-Driven UX Metrics. You’ll complete your journey with metrics that your stakeholders won’t ignore.
-          </p>
-          <p>Your metrics’ targets will capture the attention of your stakeholders and executives, raising the
-            importance
-            of UX within the organization. Your definition of project success will inspire your organization to deliver
-            better-designed products and services.</p>
-          <p>Each day, from Monday, February 6, through Friday, February 10, you’ll attend a 90-minute session
-            containing
-            a new aspect of Outcome-Driven UX Metrics. </p>
-          <p>
-            You can choose between the 2pm ET (19.00 GMT) or 7pm ET (24.00 GMT) sessions. Jared will be at both to guide
-            you through the fundamentals and answer your questions.
-          </p>
-          <p>Here’s what’s happening during the Intensive’s Fundamentals week:</p>
-          <h5> Monday, February 6: Align Your Teams to Great UX with UX Outcomes</h5>
-          <p>
-            <em>90 minutes at either 2pm ET (19.00 GMT) or 7pm ET (24.00 GMT)</em>
-          </p>
-          <p>
-            Avoid the trap of measuring outputs when it’s outcomes you need to achieve.
-          </p>
-          <p>Discover how to create effective UX Outcomes so that…</p>
-          <ul class="width80 center">
-            <li>
-              Your team and stakeholders clearly understand how everyone’s work is improving people’s lives.
-            </li>
-            <li>You get everyone on the same page about what great UX looks like.</li>
-            <li>You can show how the next release’s features play a critical role in your long-term UX vision.</li>
-          </ul>
+        <div class="sec-il basis40 view-on-desktop">
+          <div>
+            <img class="img-resp image-left pl-4 pr-4 hide-on-mobile" src="./img/5-days-metrics.png"
+              alt="Two calendars February 6 through February 10." style="width: 80%;" />
+          </div>
         </div>
-        <div class="box-content" style="margin-top: 0">
-          <h5>Tuesday, February 7: Score UX Improvements with Success Metrics</h5>
-          <p>
-            <em>90 minutes at either 2pm ET (19.00 GMT) or 7pm ET (24.00 GMT)</em>
-          </p>
-          <p>
-            Your team can’t win the race if nobody can find the finish line.
-          </p>
-          <p>Explore how to create powerful Success Metrics so that…
-          </p>
-          <ul class="width80 center">
-            <li>
-              Your entire team and your stakeholders know exactly what goals they need to aim for.
-            </li>
-            <li>You know exactly when to celebrate your success.</li>
-            <li>Your leadership can clearly see that your work has improved your users’ lives.</li>
-          </ul>
+        <div class="tablet-rows">
+          <div class="sec-il basis40 view-on-desktop">
+            <img class="cal-card-image center" src="./img/feb-6-card.png" alt="Card with February 6, Monday on it." />
+          </div>
+          <div class="sec-desc basis60 column">
+            <h3><strong>Align Your Teams to Great UX with UX Outcomes</strong></h3>
+            <p style="font-weight: bold;">
+              <em>90 minutes at either 2pm ET (19.00 GMT) or&nbsp;7pm ET (24.00 GMT)</em>
+            </p>
+            <p>
+              Avoid the trap of measuring outputs when it’s outcomes you need to achieve.
+            </p>
+            <p>Discover how to create effective UX Outcomes so that…</p>
+            <ul class="width80 center">
+              <li>
+                Your team and stakeholders clearly understand how everyone’s work is improving people’s lives.
+              </li>
+              <li>You get everyone on the same page about what great UX looks like.</li>
+              <li>You can show how the next release’s features play a critical role in your long-term UX vision.</li>
+            </ul>
+          </div>
+
         </div>
-        <div class="box-content" style="margin-top: 0">
-          <h5>Wednesday, February 8: Achieve Your UX Goals with Progress Metrics</h5>
-
-          <p>
-            <em>90 minutes at either 2pm ET (19.00 GMT) or 7pm ET (24.00 GMT)</em>
-          </p>
-          <p>
-            High-value, audacious goals take time. We need to show progress.
-          </p>
-          <p>Discover how to create insightful Progress Metrics so that…
-          </p>
-          <ul class="width80 center">
-            <li>
-              Your development and product teams are eager to prioritize the UX.
-            </li>
-            <li>You know exactly what to report in your OKRs.
-            </li>
-            <li>Your stakeholders immediately connect the UX improvement to key business goals.</li>
-          </ul>
+        <div class="mobile-reverse">
+          <div class="sec-desc basis60 column">
+            <h3><strong>Score UX Improvements with Success Metrics</strong></h3>
+            <p style="font-weight: bold;">
+              <em>90 minutes at either 2pm ET (19.00 GMT) or&nbsp;7pm ET (24.00 GMT)</em>
+            </p>
+            <p>
+              Your team can’t win the race if nobody can find the finish line.
+            </p>
+            <p>Explore how to create powerful Success Metrics so that…
+            </p>
+            <ul class="width80 center">
+              <li>
+                Your entire team and your stakeholders know exactly what goals they need to aim for.
+              </li>
+              <li>You know exactly when to celebrate your success.</li>
+              <li>Your leadership can clearly see that your work has improved your users’ lives.</li>
+            </ul>
+          </div>
+          <div class="sec-il basis40 view-on-desktop">
+            <img class="cal-card-image center" src="./img/feb-7-card.png" alt="Card with February 7, Tuesday on it." />
+          </div>
         </div>
-        <div class="box-content" style="margin-top: 0">
-          <h5>Thursday, February 9: Win Essential Champions Using Problem-Value Metrics</h5>
-
-          <p>
-            <em>90 minutes at either 2pm ET (19.00 GMT) or 7pm ET (24.00 GMT)</em>
-          </p>
-          <p>
-
-            Grow executive support for high-value UX efforts.
-
-          </p>
-          <p>Explore how to create influential Problem-Value Metrics so that…
-
-
-          </p>
-          <ul class="width80 center">
-            <li>
-              You’re motivating senior leadership to take UX seriously because better UX is a win for everyone.
-            </li>
-            <li>You’ve won over the finance department, as your UX efforts are shrinking corporate costs. </li>
-            <li>You now have key stakeholders singing the praises of better UX that improved their department’s fiscal
-              performance.</li>
-          </ul>
+        <div class="tablet-rows">
+          <div class="sec-il basis40 view-on-desktop">
+            <img class="cal-card-image center" src="./img/feb-8-card.png"
+              alt="Card with February 8, Wednesday on it." />
+          </div>
+          <div class="sec-desc basis60 column">
+            <h3><strong>Achieve Your UX Goals with Progress Metrics</strong></h3>
+            <p style="font-weight: bold;">
+              <em>90 minutes at either 2pm ET (19.00 GMT) or&nbsp;7pm ET (24.00 GMT)</em>
+            </p>
+            <p>
+              High-value, audacious goals take time. We need to show progress.
+            </p>
+            <p>Discover how to create insightful Progress Metrics so that…
+            </p>
+            <ul class="width80 center">
+              <li>
+                Your development and product teams are eager to prioritize the UX.
+              </li>
+              <li>You know exactly what to report in your OKRs.
+              </li>
+              <li>Your stakeholders immediately connect the UX improvement to key business goals.</li>
+            </ul>
+          </div>
         </div>
-        <div class="box-content" style="margin-top: 0">
-          <h5> Friday, February 10: Implement Your Outcome-Driven UX Measurements</h5>
-          <p>
-            <em>90 minutes at either 2pm ET (19.00 GMT) or 7pm ET (24.00 GMT)</em>
-          </p>
-          <p>
-            <em>Start with what you want to measure. Then identify how you’ll measure it.</em>
-          </p>
-          <p>
-            Discover novel measurement approaches so that…
-          </p>
-          <ul class="width80 center">
-            <li>
-              You’ll capture the current state of your users’ and customers’ experiences.
-            </li>
-            <li>You’ll know when to automate data collection or when simple observations will do the trick.</li>
-            <li>Your entire organization will make its top priority to improve the lives of your users.</li>
-          </ul>
+        <div class="mobile-reverse">
+          <div class="sec-desc basis60 column">
+            <h3><strong>Win Essential Champions Using Problem-Value Metrics</strong></h3>
+            <p style="font-weight: bold;">
+              <em>90 minutes at either 2pm ET (19.00 GMT) or&nbsp;7pm ET (24.00 GMT)</em>
+            </p>
+            <p>
+
+              Grow executive support for high-value UX efforts.
+
+            </p>
+            <p>Explore how to create influential Problem-Value Metrics so that…
+
+
+            </p>
+            <ul class="width80 center">
+              <li>
+                You’re motivating senior leadership to take UX seriously because better UX is a win for everyone.
+              </li>
+              <li>You’ve won over the finance department, as your UX efforts are shrinking corporate costs. </li>
+              <li>You now have key stakeholders singing the praises of better UX that improved their department’s fiscal
+                performance.</li>
+            </ul>
+          </div>
+          <div class="sec-il basis40 view-on-desktop">
+            <img class="cal-card-image center" src="./img/feb-9-card.png" alt="Card with February 9, Thursday on it." />
+          </div>
         </div>
-        <h3>An online workshop unlike any other
-        </h3>
-        <p><em>Roll up your sleeves and plan to get to work.</em></p>
-        <p>There won’t be fake companies to create over-simplified metrics for. Nothing here will be "practice."</p>
-        <p>Instead, you’ll be doing the actual work of crafting your team’s UX metrics. You’ll create
-          industrial-strength metrics that will capture the attention of your executives and stakeholders.</p>
-        <p>You’ll use your <strong>Outcome-Driven UX Metrics workbook</strong> to guide your efforts. Then, you’ll start
-          applying
-          everything you learn right away.</p>
-        <p>
-          You’ll come away from the intensive with your own custom set of metrics. Bring your team in on the process,
-          and you’ll have even better results.
-        </p>
-        <p>Might miss a session? No worries. We’ll be recording everything, so you can catch up on anything you miss.
-        </p>
-        <p>You’ll have questions. We’re ready for that. The sessions are each 90 minutes, so we should have plenty of
-          time. </p>
-        <p>And we’ll ensure you have the confidence you need to do this right. We have created a dedicated private area
-          in our <em>Leaders of Awesomeness</em> community. Put your questions there for Jared and the community to
-          share their
-          thoughts. </p>
-        <p>Discuss the gnarliest of challenges, and you’ll come away with all the assurance you need that you’ve got
-          this.</p>
-        <h3>Can’t join the intensive? Get the lecture recordings</h3>
-        <p>We know that not everyone has the resources to join us live. That’s ok.</p>
-        <p>You can get access to the video recordings of each day’s lectures. </p>
-        <p>
-          (You won’t have the Q&As or the community access, though. That’s reserved for the folks who sign up for the
-          Fundamentals package.)</p>
+        <div class="tablet-rows">
+          <div class="sec-il basis40 view-on-desktop">
+            <img class="cal-card-image center" src="./img/feb-10-card.png" alt="Card with February 10, Friday on it." />
+          </div>
+          <div class="sec-desc basis60 column">
+            <h3><strong>Implement Your Outcome-Driven UX Measurements</strong></h3>
+            <p style="font-weight: bold;">
+              <em>90 minutes at either 2pm ET (19.00 GMT) or&nbsp;7pm ET (24.00 GMT)</em>
+            </p>
+            <p>
+              <em>Start with what you want to measure. Then identify how you’ll measure it.</em>
+            </p>
+            <p>
+              Discover novel measurement approaches so that…
+            </p>
+            <ul class="width80 center">
+              <li>
+                You’ll capture the current state of your users’ and customers’ experiences.
+              </li>
+              <li>You’ll know when to automate data collection or when simple observations will do the trick.</li>
+              <li>Your entire organization will make its top priority to improve the lives of your users.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="sec-desc basis60 column">
+          <h3>An online workshop unlike any other
+          </h3>
+          <p><em>Roll up your sleeves and plan to get to work.</em></p>
+          <p>There won’t be fake companies to create over-simplified metrics for. Nothing here will be "practice."</p>
+          <p>Instead, you’ll be doing the actual work of crafting your team’s UX metrics. You’ll create
+            industrial-strength metrics that will capture the attention of your executives and stakeholders.</p>
+          <p>You’ll use your <strong>Outcome-Driven UX Metrics workbook</strong> to guide your efforts. Then, you’ll
+            start
+            applying
+            everything you learn right away.</p>
+          <p>
+            You’ll come away from the intensive with your own custom set of metrics. Bring your team in on the process,
+            and you’ll have even better results.
+          </p>
+          <p>Might miss a session? No worries. We’ll be recording everything, so you can catch up on anything you miss.
+          </p>
+          <p>You’ll have questions. We’re ready for that. The sessions are each 90 minutes, so we should have plenty of
+            time. </p>
+          <p>And we’ll ensure you have the confidence you need to do this right. We have created a dedicated private
+            area
+            in our <em>Leaders of Awesomeness</em> community. Put your questions there for Jared and the community to
+            share their
+            thoughts. </p>
+          <p>Discuss the gnarliest of challenges, and you’ll come away with all the assurance you need that you’ve got
+            this.</p>
+          <h3>Can’t join the intensive? Get the lecture recordings</h3>
+          <p>We know that not everyone has the resources to join us live. That’s ok.</p>
+          <p>You can get access to the video recordings of each day’s lectures. </p>
+          <p>
+            (You won’t have the Q&As or the community access, though. That’s reserved for the folks who sign up for the
+            Fundamentals package.)</p>
+        </div>
       </div>
       <div style="text-align: center; padding-top: 20px;">
         <a class="cta btn-cartoon btn-cartoon-shadow btn-purple btn" href="#pricing"
@@ -498,76 +520,92 @@
     </div>
   </section>
 
-  <section class="">
+  <section class="bg-lightPink">
     <div class="container-cc py-3">
-      <div class="column">
-        <div class="pb-1">
-          <h2>Ready to make metrics happen? <br /> Join our VIP program</h2>
-        </div>
-        <p>Are you ready to implement your Outcome-Driven UX Metrics right away? Then sign up for our limited-enrollment
-          <strong>Advanced Concepts VIP Package.</strong>
-        </p>
-        <p>This package gives you exclusive priority time with Leslie and Jared in extra sessions that dive into the
-          nuances and subtleties you’ll need. You’ll get the implementation tips, techniques, and tricks to ensure your
-          success.</p>
-        <p>This package is only available to the first 50 people who sign up, so you don’t want to delay.</p>
-        <p>The Advanced Concepts VIP Package includes everything in the Fundamentals Package (described above), plus:
-        </p>
-        <h3>VIP-Only Intensive Prep Coaching Session with Dr. Leslie Jensen-Inman</h3>
-        <h5> Tuesday, January 31</h5>
-        <p>
-          <em>60 minutes at either 11 am ET (16.00 GMT) or 2 pm ET (19.00 GMT) or 7 pm ET (24.00 GMT)</em>
-        </p>
-        <p>This Intensive will change how your organization values, conduct, and benefits from Outcome-Driven UX
-          Metrics. That is, it will if you’re prepared. </p>
-        <p>Attend one of the Intensive Prep Coaching sessions in January with Dr. Leslie Jensen-Inman. She’ll work with
-          you to come up with the best plan. </p>
-        <p>Getting the most from the Intensive will be different for each UX leader. It totally depends on your
-          situation.</p>
-        <p>When you meet with Leslie, you’ll share the most important results you want to get from the Intensive. She’ll
-          pick out specific resources for you to get started on so you have a headstart on the concepts. You’ll get a
-          tailored plan to best create your own Outcome-Driven UX Metrics. </p>
-        <h3>Advanced Concepts VIP-Only Sessions </h3>
-        <div class="box-content" style="margin-top: 0">
-          <h5>Monday, February 13: Get Executive Buy-in on Your UX Outcomes</h5>
-          <p>
-            <em>90 minutes at either 2pm ET (19.00 GMT) or 7pm ET (24.00 GMT)</em>
+      <div class="split">
+        <div class="sec-desc basis60 column">
+          <div class="pb-1">
+            <h2>Ready to make metrics happen? <br /> Join our VIP program</h2>
+          </div>
+          <img class="img-resp image-left hide-on-desktop" src="./img/3-days-metrics-mobile.png"
+            alt="Two calendars with the dates February 13 through February 16." />
+          <p>Are you ready to implement your Outcome-Driven UX Metrics right away? Then sign up for our
+            limited-enrollment
+            <strong>Advanced Concepts&nbsp;VIP Package.</strong>
           </p>
-          <p>
-            Your Outcome-Driven UX Metrics become far more powerful when you’ve gotten buy-in from the essential
-            stakeholders and champions.
+          <p>This package gives you exclusive priority time with Leslie and Jared in extra sessions that dive into the
+            nuances and subtleties you’ll need. You’ll get the implementation tips, techniques, and tricks to ensure
+            your
+            success.</p>
+          <p>This package is only available to the first 50 people who sign up, so you don’t want to delay.</p>
+          <p>The Advanced Concepts VIP Package includes everything in the Fundamentals Package (described above), plus:
           </p>
-          <p>Explore the techniques successful UX leaders use to create UX outcomes their stakeholders and executives
-            love and support.</p>
         </div>
-        <div class="box-content" style="margin-top: 0">
-          <h5> Tuesday, February 14: Identify Your UX Metrics Using Advanced User Research Methods</h5>
+        <div class="sec-il basis40 view-on-desktop">
+          <div>
+            <img class="img-resp image-left pl-4 pr-4 hide-on-mobile" src="./img/3-days-metrics.png"
+              alt="Two calendars with the dates Feb 13 through Feb 16." style="width: 80%;" />
+          </div>
+        </div>
+        <div class="tablet-rows">
+          <div class="sec-il basis40 view-on-desktop">
+            <img class="cal-card-image center" src="./img/feb-13-card.png"
+              alt="Card with February 13, Monday written on it" />
+          </div>
+          <div class="sec-desc basis60 column">
+            <h3><strong>Advanced Concepts VIP-Only Sessions </strong></h3>
+            <h5>Monday, February 13: Get Executive Buy-in on Your UX Outcomes</h5>
+            <p style="font-weight: bold;">
+              <em>90 minutes at either 2pm ET (19.00 GMT) or&nbsp;7pm ET (24.00 GMT)</em>
+            </p>
+            <p>
+              Your Outcome-Driven UX Metrics become far more powerful when you’ve gotten buy-in from the essential
+              stakeholders and champions.
+            </p>
+            <p>Explore the techniques successful UX leaders use to create UX outcomes their stakeholders and executives
+              love and support.</p>
+          </div>
+        </div>
+        <div class="mobile-reverse">
+          <div class="sec-desc basis60 column">
+            <h5> Tuesday, February 14: Identify Your UX Metrics Using Advanced User Research Methods</h5>
 
-          <p>
-            <em>90 minutes at either 2pm ET (19.00 GMT) or 7pm ET (24.00 GMT)</em>
-          </p>
-          <p>You’ll likely need to up your UX research game to deliver high-powered UX metrics.
-          </p>
-          <p>
-            Discover how successful UX leaders have increased their organization’s research maturity, providing new
-            insights that drive better-designed products and services.
+            <p style="font-weight: bold;">
+              <em>90 minutes at either 2pm ET (19.00 GMT) or&nbsp;7pm ET (24.00 GMT)</em>
+            </p>
+            <p>You’ll likely need to up your UX research game to deliver high-powered UX metrics.
+            </p>
+            <p>
+              Discover how successful UX leaders have increased their organization’s research maturity, providing new
+              insights that drive better-designed products and services.
 
-          </p>
+            </p>
+          </div>
+          <div class="sec-il basis40 view-on-desktop">
+            <img class="cal-card-image center" src="./img/feb-14-card.png"
+              alt="Card with February 14, Tuesday on it." />
+          </div>
         </div>
-        <div class="box-content" style="margin-top: 0">
-          <h5>Thursday, February 16: Integrate your UX Metrics Into Your Org’s Goals</h5>
+        <div class="tablet-rows">
+          <div class="sec-il basis40 view-on-desktop">
+            <img class="cal-card-image center" src="./img/feb-16-card.png"
+              alt="Card with February 16, Thursday on it." />
+          </div>
+          <div class="sec-desc basis60 column">
+            <h5>Thursday, February 16: Integrate your UX Metrics Into Your Org’s Goals</h5>
 
-          <p>
-            <em>90 minutes at either 2pm ET (19.00 GMT) or 7pm ET (24.00 GMT)</em>
-          </p>
-          <p>Outcome-driven UX metrics are not just for the UX team. They’re for the entire organization.
-          </p>
-          <p>
-            Explore how you’ll create and promote metrics that become critical user-centered targets for your entire
-            organization to achieve.
-          </p>
+            <p style="font-weight: bold;">
+              <em>90 minutes at either 2pm ET (19.00 GMT) or&nbsp;7pm ET (24.00 GMT)</em>
+            </p>
+            <p>Outcome-driven UX metrics are not just for the UX team. They’re for the entire organization.
+            </p>
+            <p>
+              Explore how you’ll create and promote metrics that become critical user-centered targets for your entire
+              organization to achieve.
+            </p>
+          </div>
         </div>
-        <div class="box-content" style="margin-top: 0">
+        <div class="sec-desc basis60 column">
           <h3>VIP-Only Get UnStuck Sessions with Jared Spool
           </h3>
           <p>
@@ -587,14 +625,12 @@
           <p>The Advanced Concepts VIP Package is only available to a small group, so we can give everyone the
             top-priority service they need. Don’t delay in signing up because this package will sell out quickly.</p>
         </div>
-        <div style="text-align: center; padding-top: 20px;">
-          <a class="cta btn-cartoon btn-cartoon-shadow btn-purple btn" href="#pricing" style="width: 100%;">Join Now</a>
-        </div>
       </div>
+    </div>
     </div>
   </section>
 
-  <section class="bg-lightGray">
+  <section class="white-bg">
     <div class="container-cc py-3">
       <div class="split">
         <div class="sec-desc basis60 column">
@@ -614,100 +650,14 @@
             Jared.</p>
         </div>
         <div class="sec-desc basis40 column">
-          <img src="./img/conversation_3.png" class="img-resp max-15em" alt="Jared Spool">
+          <img src="./img/conversation_3.png" class="img-resp max-15em"
+            alt="An image of Jared Spool with stars to the left of him">
         </div>
       </div>
     </div>
   </section>
   <!-- 
-  <section class="bg-lightGray" id="testimonial-quote">
-    <div class="container-cc py-3">
-
-      <div class="container pad-d-5 pad-bottom-5 py-1">
-        <h2 class="h2">What other UX Leaders have said about the Intensive:</h2>
-      </div>
-      <div class="container">
-        <div class="box-div">
-          <div class="testimonial-quote">
-            <div class="testimonial-quote-bg">
-              <div class="testimonial-quote-inside">
-                <p>
-                  <strong>Amazing quote from someone</strong>
-                </p>
-                <p>— B.D., Head of Experience</p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-quote">
-            <div class="testimonial-quote-bg">
-              <div class="testimonial-quote-inside">
-                <p>
-                  <strong>Amazing quote from someone</strong>
-                </p>
-                <p>— B.D., Head of Experience</p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-quote">
-            <div class="testimonial-quote-bg">
-              <div class="testimonial-quote-inside">
-                <p>
-                  <strong>Amazing quote from someone</strong>
-                </p>
-                <p>— B.D., Head of Experience</p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-quote">
-            <div class="testimonial-quote-bg">
-              <div class="testimonial-quote-inside">
-                <p>
-                  <strong>Amazing quote from someone</strong>
-                </p>
-                <p>— B.D., Head of Experience</p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <section class="text-wall wall-border">
-    <div class="bg-white py-3">
-      <div class="container-cc">
-        <div class="flex-div">
-          <div class="column">
-            <div class="basis80" style="text-align: left">
-              <h2 class="h2"> The right metrics don't come out of a magic box, <br />
-                they come from your users.</h2>
-            </div>
-          </div>
-          <div class="column">
-            <a class="cta btn-cartoon btn-cartoon-shadow btn-purple btn" href="#pricing">Join Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-lightGray" id="pricing">
+  <section class="bg-lightPink" id="pricing">
     <div id="vip">
       <div class="container-cc py-3" id="is-agile-right">
         <div class="column">
@@ -942,6 +892,202 @@
                   </a>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section> -->
+
+  <section class="bg-lightPink" id="pricing">
+    <div id="vip">
+      <div class="container-cc py-3" id="is-agile-right">
+        <div class="column">
+          <h2 class="h2">
+            Spark exceptional outcomes with UX metrics
+          </h2>
+          <p class="">
+            Ready to dive in deep and absorb everything there is to know about Outcome-Driven UX Metrics? We have three
+            packages for you to choose from
+          </p>
+        </div>
+        <div class="split column">
+          <div class="first-box pricing-box basis100 pb-1 pr-1">
+            <div id="white-box" class="bg-white box-head fund basis40">
+              <div id="regular-box" class="inner-box">
+                <h2>
+                  Outcome-Driven UX Metrics Fundamentals Package
+                </h2>
+                <img class="img-resp image-left pl-3 pr-3 pricing-img" src="./img/fund-image.png"
+                  alt="Image of three people together" />
+                <div class="box-head-ticket" style="border-top: 1px solid #FFF;">
+                  <img src="./img/ticket.png" alt="A sales tag icon" />
+                  <p>Individual: <strong>$447</strong> per person</p>
+                </div>
+                <div class="box-head-ticket" style="border-top: 1px solid #FFF;">
+                  <img src="./img/ticket.png" alt="A sales tag icon" />
+                  <p>Team (2 or more): <strong>$397</strong> per person</p>
+                </div>
+                <div class="box-head-ticket" style="border-top: 1px solid #FFF;border-bottom: 1px solid #FFF;">
+                  <img src="./img/chair.png" alt="A couch icon" />
+                  <p>Only a <strong>few</strong> spots left.
+                  </p>
+                </div>
+              </div>
+              <a id="regular-link" style="color: #057682" class="btn btn-cartoon btn-cartoon-shadow btn-white btn-fill"
+                target="_blank" href="https://register.centercentre.com/metricsfundamentals">
+                <div id="regular-text" class="cta">JOIN NOW</div>
+              </a>
+            </div>
+
+            <div class="b-t-blue box-content basis50" style="margin-top: 0; margin-bottom: 0;">
+              <h3>What's Included: </h3>
+              <ul class="width80 center blue-check">
+                <li>
+                  <p>
+                    Five 90-minute live sessions with Jared Spool.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Ground-breaking concepts behind:
+                  <ul style="padding-left: 20px; background: none;">
+                    <li>UX Outcomes</li>
+                    <li>UX Success Metrics</li>
+                    <li>UX Progress Metrics</li>
+                    <li>Problem-Value Metrics</li>
+                    <li>Instrumenting Outcome-based UX Measurements</li>
+                  </ul>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Your Outcome-Driven UX Metrics Planning Workbook.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Access to extended resources for developing your UX metrics strategy.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    A private community to get your questions answered by Jared and other members.
+                  </p>
+                </li>
+                <li>
+                  <p>9 months of access to all session recordings, Q&As, and notes (through Nov 6, 2023).</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="second-box pricing-box basis100 pb-1 pr-1">
+            <div id="purple-box" class="box-head vip basis40">
+              <img class="sold-out" src="./img/sold-out.png" alt="Sold Out banner">
+              <!-- <img class="star" src="./img/Frame.png" alt="Stars"> -->
+              <div id="vip-box" class="inner-box">
+                <h2 style="z-index: 4;">
+                  Advanced Concepts VIP Package
+                </h2>
+                <img class="img-resp image-left pl-3 pr-3 pricing-img" src="./img/vip-image.png"
+                  alt="Card with February 16, Thursday on it." style="margin-top: 20px;" />
+                <div class="box-head-ticket" style="border-top: 1px solid #FFF;">
+                  <img src="./img/ticket.png" alt="A sales tag icon" />
+                  <p>Individual: <strong>$647</strong> per person</p>
+                </div>
+                <div class="box-head-ticket" style="border-top: 1px solid #FFF;">
+                  <img src="./img/ticket.png" alt="A sales tag icon" />
+                  <p>Team (2 or more): <strong>$597</strong> per person</p>
+                </div>
+                <div class="box-head-ticket" style="border-top: 1px solid #FFF;border-bottom: 1px solid #FFF;">
+                  <img src="./img/chair.png" alt="A couch icon" />
+                  <p><strong>0</strong> seats left</p>
+                </div>
+              </div>
+              <a id="vip-link" class="btn btn-white btn-cartoon btn-cartoon-shadow btn-fill" target="_blank"
+                style="padding: 0.5em 0;" href="https://register.centercentre.com/metricsvipwaitlist">
+                <div style="color: var(--brightPurple);" id="vip-text" class="cta">Join the waiting list</div>
+              </a>
+            </div>
+
+            <div class="b-t-purple box-content basis50" style="margin-top: 0; margin-bottom: 0;">
+              <h3>What's Included:</h3>
+              <ul class="width80 center blue-check">
+                <li>
+                  <p style="color: #057682;">
+                    <strong>Everything in the Outcome-Driven UX&NonBreakingSpace;Metrics Fundamentals Package</strong>
+                  </p>
+                </li>
+              </ul>
+              <ul class="width80 center purple-check">
+                <li>
+                  <p>
+                    Three additional 90-minute live sessions. Only for VIP members.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Gain confidence with tailored coaching to:
+                  <ul style="padding-left: 20px; list-style-type:circle; list-style-image: none;">
+                    <li>Create your UX Outcomes</li>
+                    <li>Identify your team’s target metrics.</li>
+                    <li>Integrate your UX metrics into organizational goals</li>
+                  </ul>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    A 60-minute VIP-only Intensive Prep Coaching session with Dr. Leslie Jensen-Inman.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Two 90-minute VIP-only Get Unstuck sessions with Jared Spool.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Access to extended resources for developing your UX metrics strategy.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    An intimate, private community of only VIP members with Jared and Leslie to get the mentoring you
+                    need to be successful.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="third-box pricing-box pb-2 pr-1 basis100">
+            <div class="bg-white box-head recording basis40">
+              <div class="inner-box">
+                <h2>Recordings-Only Package</h2>
+                <img class="img-resp image-left pl-2 pr-2" src="./img/recording.png" alt="An image of video player" />
+              </div>
+            </div>
+
+            <div class="b-t-yellow box-content basis50" style="margin-top: 0;">
+              <h2 style="width: 100%;">
+                Recordings-Only Package
+              </h2>
+              <p>
+                9 months of access to the five intensive session recordings and notes (through Nov 6, 2023).
+              </p>
+              <p><em>Catch the lectures on your own schedule.</em></p>
+              <p>
+                <em>
+                  Note: The Recordings-Only package does not include any of the Q&A or attendance to the live
+                  sessions.
+                  It’s only the recordings of the lectures.
+                </em>
+              </p>
+              <a style="color: #000; width: 90%;" class="btn btn-cartoon btn-cartoon-shadow btn-white btn-fill"
+                target="_blank" href="https://register.centercentre.com/metricsrecordings">
+                <div class="cta">BUY RECORDING ACCESS</div>
+              </a>
             </div>
           </div>
         </div>

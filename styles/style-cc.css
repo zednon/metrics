@@ -43,8 +43,11 @@ FOOTER
   --brightGreen: #8c9b28;
   --darkRed: #951a1d;
   --brightRed: #d52327;
+  --lightPink: #EFEFEF;
   --darkPurple: #662547;
+  --darkShadePurple: #6D1544;
   --brightPurple: #9b0e5b;
+  --gradientPurple: linear-gradient(160deg, rgb(91 12 55) 0%, rgb(113 31 75) 30%, rgb(123 12 72) 50%);
   --orange: #9b621c;
   --darkOrange: #c14e27;
   --brightOrange: #ec621d;
