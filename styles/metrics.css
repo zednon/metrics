@@ -320,6 +320,21 @@ html {
   display: none;
 }
 
+.mobile-metrics-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-metrics-images img {
+  padding: 0;
+  width: 50%;
+}
+
+.mobile-metrics-images p {
+  font-weight: 600;
+  font-size: 20px;
+}
 
 .pricing-box {
   display: flex;
@@ -691,6 +706,11 @@ html {
     flex-direction: row;
   }
 
+  .mobile-metrics-images {
+    margin: 0 auto;
+    width: 75%;
+  }
+
   .tablet-rows {
     display: flex;
     flex-direction: row;
@@ -832,6 +852,10 @@ html {
 
   .metrics-images {
     display: block;
+  }
+
+  .mobile-metrics-images {
+    display: none;
   }
 
   .reverse h2 {
