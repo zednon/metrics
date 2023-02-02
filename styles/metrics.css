@@ -230,9 +230,11 @@ html {
 .jared-image {
   display: none;
   transform-origin: bottom left;
+  transition: ease-in 0.3s;
 }
 
 .jared-image:hover {
+  transition: ease-in 0.3s;
   transform: rotate(0deg);
 }
 
@@ -322,18 +324,24 @@ html {
 
 .mobile-metrics-images {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .mobile-metrics-images img {
   padding: 0;
   width: 50%;
+  margin: 0 0 0 -5px;
 }
 
 .mobile-metrics-images p {
   font-weight: 600;
   font-size: 20px;
+  margin-top: 5%;
+}
+
+.mobile-metrics-images a {
+  margin-top: 5px;
 }
 
 .pricing-box {
