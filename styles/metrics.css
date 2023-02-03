@@ -571,6 +571,14 @@ html {
   display: none;
 }
 
+#metrics-envelope {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 152px;
+}
+
 @media only screen and (min-width: 54em) {
   #header .topbar {
     padding: 35px 20px;
@@ -669,6 +677,18 @@ html {
   #hero-split {
     flex-direction: row;
     flex-wrap: nowrap;
+  }
+
+  #metrics-envelope {
+    height: 220px;
+  }
+
+  #metrics-envelope span {
+    font-size: 32px;
+  }
+
+  #metrics-envelope a {
+    margin-bottom: 8%;
   }
 
   .rotate180-mobile {
