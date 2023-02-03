@@ -796,7 +796,6 @@ html {
 
   .box-head.recording {
     min-height: 370px;
-    max-height: 370px;
   }
 
   .pricing-box h2 {
@@ -961,10 +960,6 @@ html {
 
   .pricing-box h3 {
     padding-left: 40px;
-  }
-
-  .box-head.recording {
-    min-height: 350px !important;
   }
 
   .pricing-box h2 {
