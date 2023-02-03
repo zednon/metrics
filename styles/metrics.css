@@ -230,11 +230,14 @@ html {
 .jared-image {
   display: none;
   transform-origin: bottom left;
+  transition: ease-in 0.3s;
 }
 
 .jared-image:hover {
+  transition: ease-in 0.3s;
   transform: rotate(0deg);
 }
+
 
 .pad-d-5 {
   padding-top: 50px;
