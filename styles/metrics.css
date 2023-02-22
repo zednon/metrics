@@ -45,8 +45,7 @@ html {
 
 .box-head.fund,
 .box-head.vip,
-.box-head.recording,
-#purple-box {
+.box-head.recording {
   max-width: 400px;
   margin: 0 auto;
 }
@@ -103,6 +102,11 @@ html {
   background-color: #fff;
   color: #000;
 }
+
+/* .btn-purple {
+  background-color: #fff;
+  color: #fff;
+} */
 
 .btn-cartoon-shadow-blue {
   border: 5px solid black;
@@ -202,6 +206,10 @@ html {
 }
 
 #metrics-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  line-height: 1.2;
+  font-weight: 700;
   padding: 43px 0;
 }
 
@@ -371,7 +379,7 @@ html {
   z-index: 0;
 }
 
-.cal-card-image {
+.card-image {
   max-width: 300px;
   top: 10px;
   position: sticky;
@@ -420,6 +428,11 @@ html {
 #white-box,
 #purple-box {
   position: relative;
+}
+
+#purple-box {
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .pricing-box .btn:hover {
