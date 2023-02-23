@@ -22,3 +22,7 @@
 
 - How do I tell what the em default is for a page? I want to change all px to rem but I gotta make sure I know the em first.
 
+- Unsure what sec-desc vs sec-il means exactly, specifically what does il stand for?
+
+- Why don't we use ```<button>``` html tags? This seems important for accessiblility 
+

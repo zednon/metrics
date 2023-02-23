@@ -7,6 +7,10 @@ html {
   width: 100%;
 }
 
+.header-five-days {
+  width: 100%;
+}
+
 .rotate180-mobile {
   transform: rotate(180deg);
 }
@@ -102,11 +106,6 @@ html {
   background-color: #fff;
   color: #000;
 }
-
-/* .btn-purple {
-  background-color: #fff;
-  color: #fff;
-} */
 
 .btn-cartoon-shadow-blue {
   border: 5px solid black;
