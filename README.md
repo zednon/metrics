@@ -14,6 +14,10 @@
     - Changed class from cal-card-image to card-image for these images/divs
     - Change alt tag to "Cartoon graphic of computer screen"
 
+- Removed the inline styles, re-named or added classes and id, and put styles in metrics.css file
+
+- combined class designations into one single ```class=```
+
 
 
 ## Questions 

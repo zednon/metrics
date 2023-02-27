@@ -202,6 +202,10 @@ html {
 
 #join-us {
   padding-top: 43px;
+  font-family: 'Source Sans Pro',  'DM Sans';
+  font-size: 1em;
+  margin-bottom: 0;
+  color: #fff;
 }
 
 #metrics-title {
@@ -547,6 +551,10 @@ html {
   font-size: 1.1em;
 }
 
+.two-hero-rows {
+  color: #fff;
+}
+
 .two-hero-rows p {
   font-family: 'Source Sans Pro', 'DM Sans';
   font-size: 1.25em;
@@ -576,6 +584,7 @@ html {
 
 #img-row {
   display: none;
+  color: #fff;
 }
 
 @media only screen and (min-width: 54em) {
@@ -840,7 +849,7 @@ html {
     margin-right: 0% !important;
   }
 
-  .bg-gradientPurple {
+  .bg-gradient-purple {
     background: var(--gradientPurple);
   }
 
@@ -934,6 +943,7 @@ html {
   }
 
   #metrics-title {
+    color: #fff;
     max-width: 630px;
   }
 
