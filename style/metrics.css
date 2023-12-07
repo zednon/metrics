@@ -238,7 +238,6 @@ html {
   transform: rotate(0deg);
 }
 
-
 .pad-d-5 {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -277,24 +276,24 @@ html {
 }
 
 .box-head.fund {
-  background-image: url('../img/recording-background.png');
+  background-image: url("../img/recording-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #FFF;
+  color: #fff;
 }
 
 .box-head.vip {
-  background-image: url('../img/vip-background-2.png');
+  background-image: url("../img/vip-background-2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #FFF;
+  color: #fff;
 }
 
 .box-head.recording {
-  background-image: url('../img/recording-background.png');
+  background-image: url("../img/recording-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #FFF;
+  color: #fff;
 }
 
 .box-head-ticket {
@@ -536,7 +535,7 @@ html {
 }
 
 .two-hero-rows p {
-  font-family: 'Source Sans Pro', 'DM Sans';
+  font-family: "Source Sans Pro", "DM Sans";
   font-size: 1.25em;
   max-width: 400px;
 }
@@ -593,9 +592,7 @@ html {
   }
 }
 
-
 @media only screen and (min-width: 425px) {
-
   .flex-div-start {
     flex-direction: row-reverse;
     align-items: center;
@@ -643,7 +640,6 @@ html {
 }
 
 @media only screen and (min-width: 768px) {
-
   #join-us {
     margin-top: 10%;
     padding-top: 0;
@@ -783,7 +779,7 @@ html {
   }
 }
 
-@media(max-device-width: 800px) {
+@media (max-device-width: 800px) {
   .sec-desc-step {
     grid-column: 1 / 26;
   }
@@ -797,11 +793,9 @@ html {
     margin: auto;
     display: block;
   }
-
 }
 
 @media only screen and (min-width: 1024px) {
-
   #join-us {
     margin-top: 32px;
   }
@@ -963,7 +957,7 @@ html {
   }
 }
 
-@media(max-device-width: 800px) {
+@media (max-device-width: 800px) {
   .quotedArticleLeft .sec-il img {
     padding-top: 12px;
     order: 1;
@@ -977,7 +971,6 @@ html {
   .quotedArticleLeft .sec-il {
     grid-column: 1 / 26;
   }
-
 }
 
 @media only screen and (min-width: 54em) {
@@ -1033,7 +1026,6 @@ html {
 }
 
 @media only screen and (min-width: 1440px) {
-
   #img-row {
     padding-bottom: 6%;
   }
@@ -1067,7 +1059,6 @@ html {
     width: 85%;
     max-width: 66em;
   }
-
 }
 
 @media only screen and (min-width: 1750px) {
@@ -1084,7 +1075,6 @@ h5 {
 }
 
 @media only screen and (max-width: 54em) {
-
   .basis20,
   .basis25,
   .basis30,
@@ -1094,5 +1084,4 @@ h5 {
   .basis80 {
     max-width: 100%;
   }
-
 }

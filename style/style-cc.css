@@ -43,11 +43,16 @@ FOOTER
   --brightGreen: #8c9b28;
   --darkRed: #951a1d;
   --brightRed: #d52327;
-  --lightPink: #EFEFEF;
+  --lightPink: #efefef;
   --darkPurple: #662547;
-  --darkShadePurple: #6D1544;
+  --darkShadePurple: #6d1544;
   --brightPurple: #9b0e5b;
-  --gradientPurple: linear-gradient(160deg, rgb(91 12 55) 0%, rgb(113 31 75) 30%, rgb(123 12 72) 50%);
+  --gradientPurple: linear-gradient(
+    160deg,
+    rgb(91 12 55) 0%,
+    rgb(113 31 75) 30%,
+    rgb(123 12 72) 50%
+  );
   --orange: #9b621c;
   --darkOrange: #c14e27;
   --brightOrange: #ec621d;
@@ -356,7 +361,6 @@ FOOTER
 }
 
 @media only screen and (max-width: 54em) {
-
   .image-left,
   .image-right {
     margin-right: auto;
@@ -610,7 +614,8 @@ p {
 \*------------------------------------*/
 
 .hero-research {
-  background: var(--darkOrange) url("images/hero/research-hero-bg.png") no-repeat;
+  background: var(--darkOrange) url("images/hero/research-hero-bg.png")
+    no-repeat;
   background-size: cover;
 }
 
@@ -1039,7 +1044,7 @@ footer img {
   flex-basis: calc(33% - var(--gap));
 }
 
-.emulated-flex-gap>* {
+.emulated-flex-gap > * {
   margin: var(--gap) 0 0 var(--gap);
 }
 

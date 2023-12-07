@@ -1,0 +1,207 @@
+body {
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.customerContactForm {
+  margin: 0;
+  padding: 4em 2% 2em 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3em;
+}
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.h1Font {
+  line-height: 1;
+}
+
+.weightIncress {
+  font-weight: 900;
+}
+
+.container {
+  max-width: 1200px; /* Set the maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  overflow: hidden; /* Hide any content overflowing the container */
+}
+
+.listItem {
+  padding: 0 3em;
+}
+
+.topNavIcon {
+  background-color: #fff;
+
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0 0 0;
+  margin: 0 1em;
+}
+
+.liTopNav {
+  color: #00a3b4;
+  font-size: 21.6px;
+  line-height: 1.45;
+  font-weight: 100;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 2em;
+  font-weight: lighter;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.liTopNav a {
+  text-decoration: none;
+  color: #00a3b4;
+}
+
+.liTopNav a:hover {
+  border-bottom: 2px solid #00a3b4;
+  text-decoration: none;
+}
+
+.logoPlaceHolder {
+  height: 35px;
+  width: 35px;
+}
+
+.footerForms {
+  background-color: black;
+  color: white;
+  padding: 2em;
+}
+
+.bottomNavLi a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+}
+
+.liTopNavMoble {
+  display: none;
+}
+.centerCentreLine {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
+  padding-bottom: 150px;
+}
+
+.bottomLinks a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  font-size: 14px;
+}
+
+.bottomLinks {
+  display: inline-block;
+  padding: 2em 1em 0 0;
+}
+
+.centerLink a:hover {
+  color: lightgray;
+  text-decoration: none;
+  border-bottom: 2px solid lightgray;
+}
+
+.centerLink a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+}
+
+.bottomNavLi {
+  color: #fff;
+  font-weight: 100;
+
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+.bottomNavLi a:hover {
+  color: lightgray;
+  text-decoration: none;
+  border-bottom: 2px solid lightgray;
+}
+
+.bottomNavLi a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+}
+
+#header .topbar {
+  padding: 35px 10px;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .customerContactForm {
+    grid-template-columns: 1fr;
+    padding: 10px;
+    margin: 10px;
+  }
+  .centerCentreLine {
+    grid-template-columns: 1fr;
+    padding: 3px;
+  }
+
+  .topNavIcon {
+    display: none;
+  }
+
+  .logoPlaceHolder {
+    display: none;
+  }
+
+  .mobleIcon {
+    height: auto;
+    width: 35px;
+  }
+  .moble {
+    display: inline-block;
+    padding: 0 1em;
+  }
+
+  .breadcrumBack a {
+    color: #00a3b4;
+    text-decoration: none;
+    border-bottom: 2px solid #00a3b4;
+  }
+
+  .breadcrumBack a:hover {
+    color: #113438;
+    text-decoration: none;
+    border-bottom: 2px solid #113438;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mobile-container {
+    display: none;
+  }
+  .moble {
+    display: none;
+  }
+}
