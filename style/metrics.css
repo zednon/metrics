@@ -644,6 +644,7 @@ html {
 
 @media only screen and (min-width: 768px) {
 
+
   #join-us {
     margin-top: 10%;
     padding-top: 0;
@@ -796,6 +797,10 @@ html {
     max-width: 150px;
     margin: auto;
     display: block;
+  }
+  .newGrid {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
 }
