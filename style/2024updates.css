@@ -1,0 +1,39 @@
+.bannerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.newGrid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.padding25 {
+    padding: 25px;
+}
+
+
+.container2024 {
+    max-width: 66em;
+    margin: 0 auto;
+}
+
+.fontQuicksand {
+    font-family: 'Playfair Display', serif;
+font-family: 'Quicksand', sans-serif; }
+
+.banderIcon {
+    height: 10.5rem;
+    width: 10.5rem;
+}
+
+.head-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.testimonial-divider {
+    border-right: 2px solid white;
+}
