@@ -37,3 +37,31 @@ font-family: 'Quicksand', sans-serif; }
 .testimonial-divider {
     border-right: 2px solid white;
 }
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 0;
+    color: #9b0e5b;
+}
+
+.desplayInlineBlock {
+    display: inline-block;
+}
+
+.tealBox{
+    margin-bottom: 80px; 
+    background-color: #016267; 
+    color: white
+}
+ 
+.marginBottom {
+    margin-bottom: 5rem;
+}
+
+
+.buttonLarge {
+    width: 454px;
+height: 61px;
+flex-shrink: 0;
+}
