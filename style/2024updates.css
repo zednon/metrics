@@ -5,6 +5,34 @@
     margin-bottom: 1rem;
 }
 
+
+.container2023 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 30px;
+}
+
+.imglogo {
+    max-width: 100%
+  }
+  .image {
+    width: 30%;
+    height: auto;
+  }
+
+  .text {
+    font-size: 40px;
+    padding-left: 20px;
+  }
+
+.jaredImg {
+    width: 60%;
+    height: auto;
+}
+
+
+
 .newGrid {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -64,4 +92,47 @@ font-family: 'Quicksand', sans-serif; }
     width: 454px;
 height: 61px;
 flex-shrink: 0;
+}
+
+.ulTab {
+    padding-left: 3rem;
+
+}
+.ulPaid {
+    list-style: none;
+}
+
+.ulPaid .paidLi::before{
+    content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #9b0e5b; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+} 
+
+
+.ulPaidPTL {
+    list-style: none;
+}
+
+.ulPaidPTL .paidLiPT::before{
+    content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #016267; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
 }
