@@ -136,3 +136,24 @@ button {
     color: #fff;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 625px) { 
+    .text {
+        font-size: 19px;
+        padding-left: 18px;
+      }
+      .image {
+        width: 25%;
+        height: auto;
+      }
+      .jaredImg {
+        width: 100%;
+        height: auto;
+      }
+      .bannerGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        margin-bottom: 1rem;
+    }
+}
