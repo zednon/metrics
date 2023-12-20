@@ -77,6 +77,10 @@ font-family: 'Quicksand', sans-serif; }
     display: inline-block;
 }
 
+.boreder {
+    border: 1px solid #9b0e5b;
+}
+
 .tealBox{
     margin-bottom: 80px; 
     background-color: #016267; 
