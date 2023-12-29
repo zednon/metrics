@@ -568,7 +568,7 @@ html {
 @media only screen and (min-width: 54em) {
   #header .topbar {
     padding: 35px 20px;
-    width: 85%;
+    width: 100%;
   }
 
   .box-div {

@@ -27,11 +27,14 @@
   }
 
 .jaredImg {
-    width: 60%;
+    width: 100%;
     height: auto;
+    
 }
 
-
+.font-weighth2 {
+    font-weight: 500;
+}
 
 .newGrid {
     display: grid;
@@ -39,9 +42,12 @@
 }
 
 .padding25 {
-    padding: 25px;
+    padding: 10px 25px;
 }
 
+.padding50 {
+    padding: 5px 50px;
+}
 
 .container2024 {
     max-width: 66em;
@@ -106,6 +112,8 @@ flex-shrink: 0;
     list-style: none;
 }
 
+
+
 .ulPaid .paidLi::before{
     content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #9b0e5b; /* Change the color */
@@ -116,12 +124,29 @@ flex-shrink: 0;
 } 
 
 
+.ulPaid .paidLili::before{
+    content: "\2022 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #9b0e5b; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+} 
 .ulPaidPTL {
     list-style: none;
 }
 
 .ulPaidPTL .paidLiPT::before{
     content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #016267; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.ulPaidPTL .paidLiPTli::before{
+    content: "\2022  ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #016267; /* Change the color */
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
