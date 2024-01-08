@@ -112,7 +112,9 @@ flex-shrink: 0;
     list-style: none;
 }
 
-
+.mobleSize {
+    width: 50%;
+}
 
 .ulPaid .paidLi::before{
     content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
