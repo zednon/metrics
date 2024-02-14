@@ -116,6 +116,12 @@ flex-shrink: 0;
     width: 50%;
 }
 
+.bold {
+    font-weight: bold;
+
+}
+
+
 .ulPaid .paidLi::before{
     content: "\2713 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #9b0e5b; /* Change the color */
